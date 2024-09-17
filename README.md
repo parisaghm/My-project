@@ -39,7 +39,11 @@ cd project-planner
    
 2. Install dependencies:
 
-   ![67](https://github.com/user-attachments/assets/50994466-e3ff-4efe-8857-d4be5c21e6d9)
+```
+git clone https://github.com/your-username/project-planner.git
+cd project-planner
+
+```
    
 3. Start the JSON server:
 
