@@ -44,26 +44,28 @@ npm install
    
 3. Start the JSON server:
 
-   This project uses JSON Server to simulate a backend for storing projects. Install it globally using npm:
+This project uses JSON Server to simulate a backend for storing projects. Install it globally using npm:
 
-   ```
-   npm install -g json-server
-   ```
+```
+npm install -g json-server
+```
 
-   Run the JSON server:
+Run the JSON server:
 
-   ```
-   json-server --watch db.json
-   ```
+```
+json-server --watch db.json
+```
 
-   This will start the server on http://localhost:3000 and use the db.json file in the root directory for storing projects.
+This will start the server on http://localhost:3000 and use the db.json file in the root directory for storing projects.
 
 4. Run the application:
-   Start the Vue.js application by running:
-   
-   ![33](https://github.com/user-attachments/assets/e518c66e-e318-48c3-8836-4518d1e2d207)
-   
-   The app will be available at http://localhost:8080.
+Start the Vue.js application by running:
+
+```
+npm run serve
+```
+
+The app will be available at http://localhost:8080.
 
 # JSON Server
 
