@@ -46,11 +46,15 @@ npm install
 
    This project uses JSON Server to simulate a backend for storing projects. Install it globally using npm:
 
-   ![55](https://github.com/user-attachments/assets/fd24a913-f201-4426-a18b-b052817e67ff)
+   ```
+   npm install -g json-server
+   ```
 
    Run the JSON server:
 
-   ![14](https://github.com/user-attachments/assets/cd82bc16-47a6-4ac9-939e-197b6ef53459)
+   ```
+   json-server --watch db.json
+   ```
 
    This will start the server on http://localhost:3000 and use the db.json file in the root directory for storing projects.
 
