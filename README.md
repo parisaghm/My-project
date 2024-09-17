@@ -34,15 +34,12 @@ Prerequisites:
 ```
 git clone https://github.com/your-username/project-planner.git
 cd project-planner
-
 ```
    
 2. Install dependencies:
 
 ```
-git clone https://github.com/your-username/project-planner.git
-cd project-planner
-
+npm install
 ```
    
 3. Start the JSON server:
