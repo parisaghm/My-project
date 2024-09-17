@@ -1,8 +1,6 @@
 # Project-Planner
 Project Planner with Vue.js
 
-![45](https://github.com/user-attachments/assets/0008e968-4fd5-42de-9030-d2114a91a64d)
-
 # Overview
 The Project Planner is a Vue.js web application that helps you manage your projects. You can create, edit, and delete projects, as well as mark them as complete or ongoing. This project uses a JSON server to simulate a backend and stores projects in a local database.
 
@@ -33,7 +31,11 @@ Prerequisites:
 
 1. Clone the repository:
    
-   ![12](https://github.com/user-attachments/assets/64e6c6cc-b7aa-4b27-abf9-0146d7549f00)
+```
+git clone https://github.com/your-username/project-planner.git
+cd project-planner
+
+```
    
 2. Install dependencies:
 
